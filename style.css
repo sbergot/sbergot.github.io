@@ -25,6 +25,7 @@ header > a {
     color: rgb(120, 120, 120);
     text-decoration: inherit;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 header > a:hover {
@@ -62,6 +63,10 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.viewer-large > img {
+    margin: 3px;
 }
 
 .viewer-compact > img {
